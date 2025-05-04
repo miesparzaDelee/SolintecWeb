@@ -1,8 +1,8 @@
 #moto {
     background: url('/assets/img/about-bg.jpg') center center/cover no-repeat;
-    background-color: var(--bs-dark);
+    background-color: var(--bs-light);
     padding: var(--spacing-section) 0;
-    color: var(--bs-light);
+    color: var(--bs-dark);
     position: relative;
   }
   
@@ -10,7 +10,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(33, 37, 41, 0.65);
+    background: var(--bs-light);
     z-index: 1;
   }
   
