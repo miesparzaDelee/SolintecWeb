@@ -1,0 +1,19 @@
+#nosotros-descripcion {
+    background-color: var(--bs-light);
+    color: var(--bs-body-color);
+    padding-top: var(--spacing-section);
+    padding-bottom: var(--spacing-section);
+  }
+  
+  #nosotros-descripcion-title {
+    font-size: var(--heading-xl);
+    color: var(--bs-secondary);
+    font-family: var(--font-primary);
+  }
+  
+  #nosotros-descripcion-text {
+    font-size: var(--text-base);
+    font-family: var(--font-secondary);
+    line-height: 1.8;
+  }
+  

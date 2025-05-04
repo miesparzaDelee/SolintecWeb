@@ -1,0 +1,48 @@
+:root {
+    /* Brand Colors */
+    --brand-blue: #1f3b98;
+    --brand-orange: #ff9a24;
+  
+    /* Bootstrap Overrides / Branding */
+    --bs-primary: var(--brand-orange);
+    --bs-secondary: var(--brand-blue);
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+  
+    --bs-body-color: #212529;
+    --bs-body-bg: #ffffff;
+  
+    /* Fonts */
+    --font-primary: "Raleway", sans-serif;
+    --font-secondary: "Lora", serif;
+  
+    /* Layout */
+    --spacing-section: 4rem;
+    --spacing-inner: 2rem;
+  
+    /* Typography Sizes */
+    --heading-xl: 2.5rem;
+    --heading-lg: 2rem;
+    --heading-md: 1.5rem;
+    --text-base: 1rem;
+    --text-small: 0.875rem;
+  
+    /* Borders */
+    --border-radius-lg: 0.75rem;
+    --border-radius-sm: 0.25rem;
+  
+    /* Z-index */
+    --z-navbar: 1000;
+  
+    /* Navbar Specific */
+    --navbar-bg: rgba(33, 37, 41, 0.95); /* refined dark semi-transparent */
+    --navbar-brand-color: var(--brand-orange);
+    --navbar-link-color: rgba(255, 255, 255, 0.8);
+    --navbar-link-hover: rgba(255, 255, 255, 0.5);
+    --navbar-link-active: var(--brand-orange);
+  }
+  

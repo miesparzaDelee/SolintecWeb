@@ -1,0 +1,47 @@
+#moto {
+    background: url('/assets/img/about-bg.jpg') center center/cover no-repeat;
+    background-color: var(--bs-dark);
+    padding: var(--spacing-section) 0;
+    color: var(--bs-light);
+    position: relative;
+  }
+  
+  #moto::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(33, 37, 41, 0.65);
+    z-index: 1;
+  }
+  
+  #moto .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Card styling */
+  .moto-card {
+    background-color: var(--bs-light);
+    color: var(--bs-dark);
+    border: 4px solid var(--brand-blue);
+    border-radius: var(--border-radius-lg);
+    max-width: 800px;
+  }
+  
+  /* Text styling */
+  #moto-subtitle {
+    color: var(--brand-blue);
+    font-size: var(--text-small);
+    letter-spacing: 0.05em;
+  }
+  
+  #moto-title {
+    color: var(--brand-orange);
+    font-size: var(--heading-lg);
+    font-weight: 300;
+  }
+  
+  #moto-text {
+    font-size: var(--text-base);
+  }
+  

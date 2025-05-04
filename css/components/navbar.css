@@ -1,0 +1,70 @@
+/* ======================================
+   HEADER WRAPPER WITH LOGO
+   ====================================== */
+   #header-navbar {
+    padding: var(--spacing-section) 0;
+    background-color: var(--bs-dark);
+  }
+  
+  /* Logo container in place of .site-heading */
+  #header-navbar .brand-logo-wrapper {
+    text-align: center;
+    padding-bottom: var(--spacing-inner);
+  }
+  
+  #header-navbar #brand-logo {
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+    padding: 0.5rem;
+    background-color: transparent;
+    background-clip: content-box;
+  }
+  
+  /* ======================================
+     NAVIGATION BAR STYLES
+     ====================================== */
+  #mainNavigationBar {
+    background-color: var(--navbar-bg);
+    font-family: var(--font-primary);
+  }
+  
+  #mainNavigationBar .navbar-brand {
+    color: var(--navbar-brand-color);
+    font-family: var(--font-primary);
+  }
+  
+  #mainNavigationBar .navbar-nav .nav-item .nav-link {
+    color: var(--navbar-link-color);
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  #mainNavigationBar .navbar-nav .nav-item.active .nav-link {
+    color: var(--navbar-link-active);
+  }
+  
+  /* ======================================
+     RESPONSIVE STYLING
+     ====================================== */
+  @media (min-width: 992px) {
+    #mainNavigationBar .navbar-nav .nav-item .nav-link {
+      font-size: 0.9rem;
+    }
+  
+    #mainNavigationBar .navbar-nav .nav-item .nav-link:hover {
+      color: var(--navbar-link-hover);
+    }
+  
+    #mainNavigationBar .navbar-nav .nav-item.active .nav-link:hover {
+      color: var(--navbar-link-active);
+    }
+  }
+  
+  
+  .site-heading-lower {
+    font-size: var(--heading-lg);
+    font-weight: 100;
+    line-height: 2rem;
+    color: var(--bs-light);
+  }

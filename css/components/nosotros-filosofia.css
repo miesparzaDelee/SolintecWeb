@@ -1,0 +1,19 @@
+#nosotros-filosofia {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+    padding-top: var(--spacing-section);
+    padding-bottom: var(--spacing-section);
+  }
+  
+  #nosotros-filosofia-title {
+    font-size: var(--heading-lg);
+    color: var(--bs-light);
+    font-family: var(--font-primary);
+  }
+  
+  #nosotros-filosofia-text {
+    font-size: var(--text-base);
+    font-family: var(--font-secondary);
+    line-height: 1.7;
+  }
+  

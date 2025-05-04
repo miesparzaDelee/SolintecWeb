@@ -1,0 +1,46 @@
+#nosotros-valores {
+    background-color: var(--bs-light);
+    color: var(--bs-body-color);
+    padding-top: var(--spacing-section);
+    padding-bottom: var(--spacing-section);
+  }
+  
+  #nosotros-valores-title {
+    font-size: var(--heading-lg);
+    font-family: var(--font-primary);
+    color: var(--bs-secondary);
+  }
+  
+  .valor-card {
+    background-color: white;
+    border: 1px solid var(--bs-secondary);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-inner);
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .valor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .valor-icon {
+    font-size: 2rem;
+    color: var(--brand-orange);
+    margin-bottom: 1rem;
+  }
+  
+  .valor-title {
+    font-size: var(--heading-md);
+    font-family: var(--font-primary);
+    color: var(--bs-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .valor-text {
+    font-size: var(--text-small);
+    font-family: var(--font-secondary);
+  }
+  

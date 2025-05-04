@@ -1,0 +1,25 @@
+#nosotros-mision-vision {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    padding-top: var(--spacing-section);
+    padding-bottom: var(--spacing-section);
+  }
+  
+  #nosotros-mv-title {
+    font-size: var(--heading-lg);
+    color: var(--bs-secondary);
+    font-family: var(--font-primary);
+  }
+  
+  #nosotros-mision-title, #nosotros-vision-title {
+    font-size: var(--heading-md);
+    color: var(--bs-primary);
+    font-family: var(--font-primary);
+  }
+  
+  #nosotros-mision-text, #nosotros-vision-text {
+    font-size: var(--text-base);
+    font-family: var(--font-secondary);
+    line-height: 1.7;
+  }
+  
