@@ -21,18 +21,25 @@ document.addEventListener("DOMContentLoaded", () => {
             { text: "Contacto", href: "/contacto.html" },
           ];
   
-          navLinks.forEach((link, index) => {
+          const currentPath = window.location.pathname;
+
+          navLinks.forEach((link) => {
             const li = document.createElement("li");
-            li.className = "nav-item" + (index === 0 ? " active" : "");
-  
+            li.className = "nav-item";
+          
             const a = document.createElement("a");
             a.className = "nav-link";
             a.href = link.href;
             a.textContent = link.text;
-  
+          
+            // Marcar como activo si coincide la ruta actual
+            if (currentPath === link.href) {
+              li.classList.add("active");
+            }
+          
             li.appendChild(a);
             navbarItems.appendChild(li);
-          });
+          });          
         }
       })
       .catch(error => {
