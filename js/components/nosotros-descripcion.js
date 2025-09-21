@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
         // Solo después de insertar el HTML, ya puedes usar getElementById
         document.getElementById("nosotros-descripcion-title").textContent = "Nosotros";
-        document.getElementById("nosotros-descripcion-text").textContent =
-        "Con más de 8 años en el sector, en SOLINTEC ofrecemos soluciones tecnológicas industriales especializadas. Nos impulsa el compromiso con la innovación, la calidad y el crecimiento de nuestros clientes.";
+  document.getElementById("nosotros-descripcion-text").textContent =
+  "En SOLINTEC, desde 2018 hemos evolucionado para responder a las necesidades técnicas de la industria mexicana. Nuestra trayectoria nos ha llevado de la especialización en productos eléctricos a la integración de soluciones en automatización y suministros industriales, colaborando con sectores clave como hotelería, minería, manufactura y energía. Nos distingue la adaptación constante, la calidad y la construcción de alianzas estratégicas que fortalecen el valor que ofrecemos a nuestros clientes.";
       })
       .catch(err => console.error("Error cargando componente:", err));
   });

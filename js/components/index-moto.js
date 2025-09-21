@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("moto-placeholder").innerHTML = html;
   
         // Inject content
-        document.getElementById("moto-subtitle").textContent = "Nuestra prioridad";
-        document.getElementById("moto-title").textContent = "USTED";
+        document.getElementById("moto-subtitle").textContent = "Nuestros pilares";
+        document.getElementById("moto-title").textContent = "Servicio, Cumplimiento e Innovación";
         document.getElementById("moto-text").textContent =
-          "En SOLINTEC, usted es el centro de todo lo que hacemos. Trabajamos para ofrecer soluciones confiables, personalizadas y efectivas, garantizando resultados concretos en cada proyecto. Somos su socio tecnológico en la industria.";
+          "En SOLINTEC, cada decisión se fundamenta en brindar un servicio excepcional, cumplir con los más altos estándares y promover la innovación. Nos distingue nuestro expertise técnico, la formalidad y la calidad en cada entrega, generando confianza y valor para nuestros clientes y aliados.";
       })
       .catch(err => console.error("Error loading moto section:", err));
   });

@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("nosotros-mv-title").textContent = "Misión y Visión";
         document.getElementById("nosotros-mision-title").textContent = "Misión";
         document.getElementById("nosotros-mision-text").textContent =
-          "Ser aliados estratégicos del crecimiento industrial, innovando continuamente y garantizando soluciones eficientes para nuestros clientes.";
+          "Proveer soluciones y suministros confiables en automatización y tecnología industrial, con enfoque técnico, servicio ágil y cumplimiento normativo.";
         document.getElementById("nosotros-vision-title").textContent = "Visión";
         document.getElementById("nosotros-vision-text").textContent =
-          "Consolidarnos como líderes locales en Durango y referentes nacionales en soluciones tecnológicas industriales.";
+          "Ser una empresa establecida y reconocida en el norte de México por su servicio, confiabilidad y red de proveedores en automatización y suministros industriales.";
       });
   });
   

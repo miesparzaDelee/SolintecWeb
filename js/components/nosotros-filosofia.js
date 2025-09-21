@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
         document.getElementById("nosotros-filosofia-title").textContent = "Nuestra Filosofía";
         document.getElementById("nosotros-filosofia-text").textContent =
-          "Nos impulsa la practicidad, la flexibilidad y el compromiso total con nuestros clientes. Nos enfocamos en soluciones útiles, con ética, calidad y una pasión constante por servir.";
+          "En SOLINTEC creemos en la colaboración activa y el aprendizaje continuo como motores de nuestro crecimiento. Valoramos la transparencia en cada relación y la responsabilidad en cada proyecto, buscando siempre anticiparnos a las necesidades de la industria. Nuestra filosofía se basa en construir alianzas duraderas, fomentar el desarrollo profesional y mantenernos a la vanguardia tecnológica para aportar soluciones que trascienden expectativas.";
       });
   });
   

@@ -8,24 +8,39 @@ document.addEventListener("DOMContentLoaded", () => {
   
         const valores = [
           {
-            icon: "💡",
-            titulo: "Innovación",
-            descripcion: "Buscamos constantemente mejorar nuestros procesos y soluciones para adelantarnos al cambio tecnológico."
+            icon: "🧭",
+            titulo: "Honestidad",
+            descripcion: "Actuamos con transparencia e integridad en todo momento."
           },
           {
             icon: "🤝",
-            titulo: "Compromiso",
-            descripcion: "Nos involucramos en cada proyecto con responsabilidad y dedicación total al cliente."
+            titulo: "Respeto",
+            descripcion: "Reconocemos la dignidad de cada persona en nuestras interacciones."
+          },
+          {
+            icon: "⚖️",
+            titulo: "Igualdad",
+            descripcion: "Promovemos condiciones justas y equitativas en todas las relaciones."
           },
           {
             icon: "⚙️",
             titulo: "Calidad",
-            descripcion: "Ofrecemos productos y servicios con altos estándares técnicos y operativos."
+            descripcion: "Cumplimos con los más altos estándares en productos y servicios."
           },
           {
-            icon: "🔧",
-            titulo: "Flexibilidad",
-            descripcion: "Nos adaptamos a los requerimientos y desafíos del entorno industrial en constante evolución."
+            icon: "📌",
+            titulo: "Compromiso",
+            descripcion: "Atendemos y resolvemos las necesidades del cliente de manera integral."
+          },
+          {
+            icon: "🏛️",
+            titulo: "Formalidad y seguridad",
+            descripcion: "Mantenemos relaciones confiables, responsables y sostenibles con clientes y proveedores."
+          },
+          {
+            icon: "⏰",
+            titulo: "Cumplimiento en tiempos",
+            descripcion: "Respetamos plazos y fechas de entrega como parte esencial de la confiabilidad de nuestro servicio."
           }
         ];
   

@@ -6,19 +6,22 @@ document.addEventListener("DOMContentLoaded", () => {
         wrapper.innerHTML = html;
         const section = wrapper.querySelector(".servicio-seccion");
   
-        section.querySelector(".servicio-title").textContent = "Servicios Eléctricos";
-        section.querySelector(".servicio-subtitle").textContent = "Montaje y configuración profesional";
-        section.querySelector(".servicio-text").textContent =
-         "Realizamos instalaciones eléctricas industriales con enfoque en seguridad, eficiencia energética y cumplimiento de normativas. Desde canalizaciones hasta tableros de distribución.";
-        section.querySelector(".servicio-icon").textContent = "⚡";
-        section.querySelector(".servicio-img").src = "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-        section.querySelector(".servicio-img").alt = "Servicios eléctricos";
+  section.querySelector(".servicio-title").textContent = "Ingeniería y Diseño";
+  section.querySelector(".servicio-subtitle").textContent = "Soluciones embebidas y desarrollo industrial";
+  section.querySelector(".servicio-text").textContent =
+   "Desarrollamos soluciones embebidas (hardware y firmware), diseño mecánico y modelado 3D, prototipado y pruebas, estudios de proceso y capacitación, e integración de tecnologías de Industria 4.0 para optimizar procesos industriales y crear proyectos a la medida.";
+  section.querySelector(".servicio-icon").textContent = "🛠️";
+  section.querySelector(".servicio-img").src = "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+  section.querySelector(".servicio-img").alt = "Ingeniería y diseño industrial";
   
         const lista = [
-            "Diseño de planos eléctricos",
-            "Instalación de media y baja tensión",
-            "Tableros y centros de carga",
-            "Certificación RETIE / NOM"
+            "Desarrollo de sistemas embebidos (hardware + firmware)",
+            "Prototipado y pruebas funcionales",
+            "Diseño mecánico y modelado 3D",
+            "Integración de tecnologías de Industria 4.0",
+            "Optimización de procesos y layouts industriales",
+            "Proyectos llave en mano",
+            "Estudios de proceso (tiempos, movimientos, eficiencia)",
         ];
 
         const list = section.querySelector(".servicio-list");
